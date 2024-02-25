@@ -1,0 +1,75 @@
+# Ignore Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+
+# Ignore environment-related files
+venv/
+.env
+
+# Ignore Node.js related files
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore React build and development files
+/build/
+/dist/
+/.idea/
+/.vscode/
+.DS_Store
+
+# Ignore Flask-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.pyi
+*.pyproj
+*.pyc
+
+# Ignore local development configuration
+.env.local
+
+# Ignore any compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.out
+*.pyc
+*.pyo
+*.so
+
+# Ignore log and temporary files
+*.log
+*.sql
+*.sqlite
+*.swp
+*.swo
+*.tmp
+
+# Ignore database configuration
+sqlite/
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore test and coverage directories
+/tests/
+/coverage/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Ignore notes
+notes/
