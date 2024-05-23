@@ -73,3 +73,6 @@ ehthumbs.db
 
 # Ignore notes
 notes/
+
+# Ignore my_logger
+my_logger.log
