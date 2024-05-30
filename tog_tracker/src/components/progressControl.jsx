@@ -33,10 +33,15 @@ const ProgressControl = () => {
   return (
     <>
       {books
-        ? bookOrder.map((order) => {
+        ? bookOrder.map((order, i) => {
             const book = books[order];
             return (
-              <BookSection order={order} book={book} setBooks={setBooks} />
+              <BookSection
+                key={`bookection_${i}`}
+                order={order}
+                book={book}
+                setBooks={setBooks}
+              />
             );
           })
         : null}
@@ -147,8 +152,8 @@ const BookSection = ({ book, order, setBooks }) => {
 const BookComments = ({ comments }) => {
   return (
     <>
-      {comments.map((comment) => {
-        return <li>{comment.comments}</li>;
+      {comments.map((comment, i) => {
+        return <li key={`comment_${i}`}>{comment.comments}</li>;
       })}
     </>
   );
